@@ -74,7 +74,7 @@ public class Graph {
         int end = sc.nextInt();  // Store desired vertex
 
         if(end < 0 || end >= vertices){  // If vertex does not exist
-            System.out.printf("\nGraph does not contain desired vertex '%d'\n", end);  // Print not contained message
+            System.out.printf("\nGraph does not contain desired vertex '%d'\n", end);  // Print vertex not contained message
             return;  // Exit
         }
 
